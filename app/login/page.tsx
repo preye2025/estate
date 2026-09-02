@@ -35,10 +35,11 @@ const login = () => {
         </div>
         <p>Forgot password?</p>
         <Link href="/createAccount" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Log in</Link>
-        <p>Dont have an account? Sign up</p>
+        <div className='flex flex-row gap-2 items-center justify-center'>
+          <p>Dont have an account?</p>
+          <Link href="/createAccount" className="text-orange-500">Sign up</Link>
+        </div>
       </div>
-
-
     </div>
   )
 }

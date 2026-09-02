@@ -28,7 +28,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className='flex flex-col pl-10 pr-10 gap-5'>
+      <div className='flex flex-col pl-10 pr-10 pb-5 gap-5'>
         <div className='relative'>
           <input type="text" id="fullname" className='peer w-full rounded-xl border border-gray-300 px-4 py-4 outline-none focus:border-orange-500' placeholder=""/>
           <label htmlFor="fullname" className="absolute left-4 top-0 -translate-y-1/2 bg-white px-2 text-gray-500 transition-all peer-focus:text-orange-500">FullName</label>
@@ -48,8 +48,6 @@ const CreateAccount = () => {
         <p className='text-sm text-black font-light text-center'>I agree to all Terms, Privacy Policy and Fees</p>
         <Link href="/createAccount" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Sign Up</Link>
       </div>
-      
-
     </div>
   )
 }
