@@ -34,7 +34,7 @@ const login = () => {
           <label htmlFor="password" className="absolute left-4 bg-[#FFF8DB] top-0 -translate-y-1/2 px-2 text-gray-500 transition-all peer-focus:text-orange-500">Password</label>
         </div>
         <p>Forgot password?</p>
-        <Link href="/createAccount" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Log in</Link>
+        <Link href="/dashboard" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Log in</Link>
         <div className='flex flex-row gap-2 items-center justify-center'>
           <p>Dont have an account?</p>
           <Link href="/createAccount" className="text-orange-500">Sign up</Link>
