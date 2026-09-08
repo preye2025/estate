@@ -46,7 +46,7 @@ const CreateAccount = () => {
           <label htmlFor="password confirmation" className="absolute left-4 top-0 -translate-y-1/2 bg-white px-2 text-gray-500 transition-all peer-focus:text-orange-500">Confirm Password</label>
         </div>
         <p className='text-sm text-black font-light text-center'>I agree to all Terms, Privacy Policy and Fees</p>
-        <Link href="/createAccount" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Sign Up</Link>
+        <Link href="/dashboard" className="bg-[#EE7421] rounded-2xl text-white p-3.5 text-center">Sign Up</Link>
       </div>
     </div>
   )

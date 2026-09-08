@@ -1,10 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Dashboard from '@/components/dashboard'
+
 
 const page = () => {
   return (
     <>
+      <Dashboard/>
       <div className="flex min-h-screen flex-col gap-5 p-10 pt-15 bg-[#FFF8DB]">
         <div className="flex flex-col gap-5 p-5 bg-white">
           <div className='flex flex-row gap-2 font-bold text-[#5F6368] items-center'>
